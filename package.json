@@ -1,0 +1,24 @@
+{
+  "name": "mern-restaurant-reviews",
+  "version": "1.0.0",
+  "description": "MERN app for restaurant reviews. Following along FCC tutorial.\r Created by lilKriT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilKriT/mern-restaurant-reviews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilKriT/mern-restaurant-reviews/issues"
+  },
+  "homepage": "https://github.com/lilKriT/mern-restaurant-reviews#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
