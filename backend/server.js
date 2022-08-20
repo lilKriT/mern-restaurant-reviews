@@ -11,8 +11,6 @@ app.use(express.json());
 
 // Routes
 app.use("/api/v1/restaurants", restaurants);
-app.use("*", (req, res) => {
-  res.status(404).json({ error: "Not found" });
-});
+app.use("*", (req, res) => res.status(404).json({ error: "Not found" }));
 
 export default app;
